@@ -1,0 +1,73 @@
+body {
+  font-family: Arial;
+  background: #e5e5e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* LOGIN */
+.card {
+  background: #cfcfcf;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+  text-align: center;
+  width: 300px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+.botones button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+}
+button {
+  margin: 10px;
+  padding: 10px;
+  background: #2aa3c6;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+button:hover {
+  background: #1d7f99;
+}
+
+/* HOME */
+.home {
+  text-align: center;
+  background: #7cc7c9;
+  height: 100vh;
+  padding: 20px;
+}
+
+.card-option {
+  background: #a65b00;
+  color: white;
+  margin: 20px auto;
+  padding: 20px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #c9d27a;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+}
